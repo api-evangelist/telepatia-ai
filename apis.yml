@@ -1,7 +1,29 @@
 aid: telepatia-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/telepatia-ai.png
 name: Telepatia AI
-description: Telepatia AI is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Telepatia is an AI-native clinical platform built for Latin American
+  healthcare. It listens to doctor-patient consultations and generates
+  clinical documentation in real time (AI Writer), surfaces evidence-based
+  clinical recommendations during the visit (AI Advisor), integrates with
+  50+ electronic health record and hospital systems such as Epic, TASY,
+  iClinic and MV (AI Integrator), and produces analytics on protocol
+  adherence and clinical performance (AI Business Intelligence). Founded by
+  Nicolas Abad and backed by a16z with a $33M Series A, the platform has
+  deployed across 25+ hospital systems in Brazil, Colombia and Mexico. As of
+  this enrichment pass Telepatia exposes a product and web application but
+  publishes no public developer API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/telepatia-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Artificial Intelligence
+- Clinical Documentation
+- Medical Scribe
+- Electronic Health Records
+- Latin America
+- Clinical Decision Support
 apis: []
+common:
+- type: DomainSecurity
+  url: security/telepatia-ai-domain-security.yml
+- type: Website
+  url: https://www.telepatia.ai/en
+- type: SignUp
+  url: https://scribe.telepatia.ai/sign-up
+- type: Login
+  url: https://scribe.telepatia.ai/sign-in
+- type: TermsOfService
+  url: https://www.telepatia.ai/en/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.telepatia.ai/en/privacy-policy
+- type: Blog
+  url: https://www.telepatia.ai/en/news
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
