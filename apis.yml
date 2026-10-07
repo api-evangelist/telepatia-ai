@@ -56,6 +56,10 @@ tags:
 - Clinical Decision Support
 apis: []
 common:
+- type: Pricing
+  url: https://www.telepatia.ai/en/for-doctors
+- type: Plans
+  url: plans/telepatia-ai-plans-pricing.yml
 - type: DomainSecurity
   url: security/telepatia-ai-domain-security.yml
 - type: Website
