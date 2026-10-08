@@ -38,3 +38,35 @@ plans:
   price_text: Talk to sales
   period: none
   included_quota: Unlimited clinicians and roles, AI Auditor, integrations, dedicated support
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - hybrid
+  units:
+  - object
+  plans:
+  - name: Individual (launch price)
+    access: other
+    model: free
+    model_how: derived
+    units:
+    - other
+    periods:
+    - month
+  - name: Individual
+    access: other
+    model: hybrid
+    model_how: derived
+    units:
+    - object
+    periods:
+    - month
+  - name: Institutional
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
